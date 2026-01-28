@@ -21,8 +21,8 @@ class Rectangle():
     
 #     # Returns a boolean value
 
-    # def __eq__(self, other):
-    #     return self.area_calculator() == other.area_calculator()
+    def __eq__(self, other):
+        return self.area_calculator() == other.area_calculator()
 
 
     
