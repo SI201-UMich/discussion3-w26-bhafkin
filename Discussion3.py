@@ -3,27 +3,33 @@ import math
 class Rectangle():
     # Create the constructor "__init__" method
 
-    # YOUR CODE HERE
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+#     # Create the "__str__" method
+
+#     def __str__(self):
+#         return "A rectangle with width {} and height {}".format(self.width, self.height)
+
+#     # Create the "area_calculator" method
+
+#     def area_calculator(length, width):
+#         return float (length * width)
 
 
 
-    # Create the "__str__" method
+#     # Create the "__eq__" method
+    
+#     # Returns a boolean value
 
-    # YOUR CODE HERE
+# class Rectangle():
 
+#     def __init__(self, width, height):
+#         self.width = width
+#         self.height = height
 
-
-    # Create the "area_calculator" method
-
-    # YOUR CODE HERE
-
-
-
-    # Create the "__eq__" method
-    # 
-    # Returns a boolean value
-
-    # YOUR CODE HERE
+#     def __eq__(self, other):
 
 
     
